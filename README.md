@@ -1,5 +1,7 @@
 # svelte-pickTime
-A timepicker component [Demo](https://humos.org/picktime.html)
+A timepicker component - [Demo](https://humos.org/picktime.html)
+
+![image](https://user-images.githubusercontent.com/60601481/74669592-c4b7f580-51a7-11ea-8cb9-8239178ff96a.png)
 
 ## Props
 * timestamp - a Date() object
