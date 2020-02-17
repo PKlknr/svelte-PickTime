@@ -1,0 +1,48 @@
+{
+  "name": "svelte-PickTime",
+  "version": "1.0.0",
+  "description": "Svelte Timepicker Component",
+  "svelte": "src/PickTime/index.svelte",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx svatic",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PKlknr/svelte-PickTime.git"
+  },
+  "author": "Patrick Klöckner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PKlknr/svelte-PickTime/issues"
+  },
+  "lint-staged": {
+    "src/**/*.{js,svelte,css}": "prettier --write",
+    "src/**/*.{js,svelte}": "eslint --fix"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "homepage": "https://github.com/PKlknr/svelte-PickTime#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "husky": "^4.2.0",
+    "lint-staged": "^10.0.2",
+    "prettier": "^1.19.1",
+    "prettier-plugin-svelte": "^0.7.0",
+    "rollup": "^1.11.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "snowpack": "^1.1.2",
+    "svatic": "file:../svatic"
+  },
+  "dependencies": {
+    "svelte": "file:../svelte"
+  }
+}
