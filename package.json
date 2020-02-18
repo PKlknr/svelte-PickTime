@@ -5,7 +5,7 @@
   "svelte": "src/PickTime/index.svelte",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx svatic",
+    "dev": "npx svatic"
   },
   "repository": {
     "type": "git",
@@ -38,11 +38,11 @@
     "prettier-plugin-svelte": "^0.7.0",
     "rollup": "^1.11.0",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-svelte": "^5.0.0",
+    "rollup-plugin-svelte": "^5.1.1",
     "snowpack": "^1.1.2",
-    "svatic": "file:../svatic"
+    "svatic": "github:PKlknr/svatic#svelte-modules"
   },
   "dependencies": {
-    "svelte": "file:../svelte"
+    "svelte": "github:wix-incubator/wix-svelte"
   }
 }
