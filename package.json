@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Svelte Timepicker Component",
   "svelte": "src/PickTime/index.svelte",
+  "main": "src/PickTime/index.svelte",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx svatic"
