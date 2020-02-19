@@ -37,11 +37,7 @@
     "lint-staged": "^10.0.2",
     "prettier": "^1.19.1",
     "prettier-plugin-svelte": "^0.7.0",
-    "rollup": "^1.11.0",
-    "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-svelte": "^5.1.1",
-    "snowpack": "^1.1.2",
-    "svatic": "github:PKlknr/svatic#svelte-modules"
+    "svatic": "github:PKlknr/svatic"
   },
   "dependencies": {
     "svelte": "github:wix-incubator/wix-svelte"
